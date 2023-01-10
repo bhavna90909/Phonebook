@@ -1,1 +1,107 @@
-# Phonebook
+### PHONEBOOK-
+Phonebook implemented from Linklist in C++
+
+#Phonebook management have three main operations:
+#1.Searching
+#2.Sorting
+#3.Deleting
+These three operation can be performed efficiently(among above data structures) with Linked List. Doubly Linked List because while searching first element but the current status of pointer is in between middle and first element so it should traverse backward because then it will take less time.
+
+### Time complexities in O
+
+1.Searching O(n)
+2.Deletion O(n)
+3.Sorting O(n*Log n)
+
+### OPERATIONS IMPLEMENTED
+
+1)DELETE SAME NUMBER
+2)DELETE SAME NAME
+3)DELETE SAME E-MAIL
+4)SEARCH
+5)DELETE CONTACT
+6)DISPLAY CONTACT-In sorted(bubble sort) display
+7)UPDATE DETAILS-A)NAME B)NUMBER C)G-MAIL
+8)INSERT CONTACT
+
+### OUTPUT
+
+WHAT IS YOUR NAME? Yash
+
+!!!!!!!!!!!!!!!!!!!!!!! WELCOME YASH !!!!!!!!!!!!!!!!!!!!!
+
+LET'S CREATE OUR PHONEBOOK YASH
+
+ENTER NAME :vijay
+ENTER NUMBER :1234567890
+ENTER G-MAIL :priti@gmail.com
+DO YOU WANT TO ADD MORE CONTACTS(y/n)?y 
+ENTER NAME :rahul 
+ENTER NUMBER :1234567890
+ENTER G-MAIL :rahh� �ul@gmail.com 
+DO YOU WANT TO ADD MORE CONTACTS(y/n)?n
+
+1) DISPLAY YOUR PHONE BOOK
+2) INSERT NEW CONTACT
+3) UPDATE DETAILS ON EXISTING CONTACT
+4) DELETE CONTACT
+5) DELETE SAME NAME IN PHONEBOOK
+6) DELETE SAME NUMBERS IN PHONEBOOK
+7) DELETE SAME MAIL IN PHONEBOOK
+8) SEARCH IN PHONEBOOK
+
+
+SEARCH 1
+
+NAME :: rahul NUMBER:: +91-1234567890 G-MAIL:: rahul@gmail.com
+
+NAME :: vijay NUMBER:: +91-1234567890 G-MAIL:: priti@gmail.com
+
+DO YOU WANT MAIN MENU AGAIN(y/n)?y
+
+1) DISPLAY YOUR PHONE BOOK
+2) INSERT NEW CONTACT
+3) UPDATE DETAILS ON EXISTING CONTACT
+4) DELETE CONTACT
+5) DELETE SAME NAME IN PHONEBOOK
+6) DELETE SAME NUMBERS IN PHONEBOOK
+7) DELETE SAME MAIL IN PHONEBOOK
+8) SEARCH IN PHONEBOOK
+
+
+SEARCH 2
+
+ENTER NAME :akshay 
+ENTER NUMBER :9819140108
+ENTER G-MAIL :akshay@gmail.com 
+DO YOU WANT TO ADD MORE CONTACTS(y/n)?y 
+ENTER NAME :Vijay 
+ENTER NUMBER :1234567890
+ENTER G-MAIL :vijay@gmail.com
+DO YOU WANT TO ADD MORE CONTACTS(y/n)?n
+DO YOU WANT MAIN MENU AGAIN(y/n)?y
+
+
+
+1) DISPLAY YOUR PHONE BOOK
+2) INSERT NEW CONTACT
+3) UPDATE DETAILS ON EXISTING CONTACT
+4) DELETE CONTACT
+5) DELETE SAME NAME IN PHONEBOOK
+6) DELETE SAME NUMBERS IN PHONEBOOK
+7) DELETE SAME MAIL IN PHONEBOOK
+8) SEARCH IN PHONEBOOK
+
+
+
+SEARCH 3 1
+
+NAME :: Vijay NUMBER:: +91-1234567890 G-MAIL:: priti@gmail.com
+
+NAME :: akshay NUMBER:: +91-1234567890 G-MAIL:: rahul@gmail.com
+
+NAME :: rahul NUMBER:: +91-9819140108 G-MAIL:: akshay@gmail.com
+
+NAME :: vijay NUMBER:: +91-1234567890 G-MAIL:: vijay@gmail.com
+
+DO YOU WANT MAIN MENU AGAIN(y/n)?n
